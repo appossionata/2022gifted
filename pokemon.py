@@ -1,6 +1,6 @@
 Web VPython 3.2
 images = ['https://cdn.econovill.com/news/photo/201603/285365_95988_038.png','https://cdn.banggooso.com/assets/images/game96/result/ESTJ.png']
-a = arrow(pos = vec(0,2,0), axis = vec(0,-1,0), color = color.green)
+a = arrow(pos = vec(0,2,0), axis = vec(0,-1,0), color = color.blue)
 p = box(texture = images[0])
 g = box(pos = vec(1,0,0), texture = images[1])
 i = 0
@@ -16,5 +16,5 @@ while True :
         p.color = color.magenta
         g.color = color.white
     if ' ' in k :
-        label(text = '당첨되셨습니다', pos = vec(0,1.1,0))
+        label(text = '당첨되셨습니다람쥐가노래합니다람쥐가노래합니다람쥐가노래합니다람쥐가노래합니다람쥐가노래합니다람쥐가노래합니다람쥐가노래합니다', pos = vec(0,1.1,0))
         break
