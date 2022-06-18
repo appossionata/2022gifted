@@ -1,0 +1,22 @@
+Web VPython 3.2
+a = sphere(make_trail = True, color = color.cyan, radius = 0.00001)
+import random
+while True :
+    rate(100)
+    k = keysdown()
+    print(k)
+    if 'right' in k :
+        a.pos.x += 0.1
+    if 'left' in k :
+        a.pos.x -= 0.1
+    if 'up' in k :
+        a.pos.y += 0.1
+    if 'down' in k :
+        a.pos.y -= 0.1
+    if 'e' in k :
+        a.pos.z += 0.1
+    if 'r' in k :
+        a.pos.z -= 0.1
+    if ' ' in k :
+        a.color = vec(random.random(),random.random(),1)
+        a.trail_color = a.color
